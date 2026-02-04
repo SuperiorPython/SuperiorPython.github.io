@@ -1,0 +1,68 @@
+/* Page layout */
+.lp {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background: #ffffff;
+  color: #111;
+}
+
+.lp-page {
+  width: 720px;
+  margin: 24px auto 40px auto;
+}
+
+/* Title */
+.lp-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 64px;
+  text-align: center;
+  margin: 0 0 14px 0;
+  font-weight: 400;
+}
+
+/* Image block */
+.lp-cover {
+  width: 100%;
+  display: block;
+  border: 1px solid #ddd;
+}
+
+/* Excerpt area */
+.lp-excerpt {
+  margin-top: 16px;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+/* Underline like the screenshot */
+.u {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+/* Orange highlight */
+.hl {
+  background: #f6b23a; /* warm orange highlight */
+  padding: 2px 4px;
+}
+
+/* Red emphasis lines */
+.red {
+  color: #ff0000;
+  font-weight: 700;
+}
+
+/* Back link */
+.lp-back {
+  display: inline-block;
+  margin-top: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: #1a4b8c;
+}
+
+.lp-back:hover {
+  text-decoration: underline;
+}
